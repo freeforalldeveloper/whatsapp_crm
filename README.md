@@ -2,6 +2,8 @@
 
 A lightweight CRM layer built directly inside [WhatsApp Web](https://web.whatsapp.com) for brokers, sales teams, freelancers, recruiters, support agents, and operators drowning in chaotic chats, forgotten follow-ups, and spreadsheet graveyards.
 
+---
+
 <img width="1332" height="577" alt="image" src="https://github.com/user-attachments/assets/b7b778f1-93e4-4370-9f20-379f069ef4a7" />
 
 <img width="1366" height="594" alt="image" src="https://github.com/user-attachments/assets/09e05fdd-1195-4cca-a50f-fd842213219e" />
@@ -9,6 +11,43 @@ A lightweight CRM layer built directly inside [WhatsApp Web](https://web.whatsap
 
 <img width="1366" height="598" alt="image" src="https://github.com/user-attachments/assets/81105da2-66cc-45ec-ae11-f0d79069c169" />
 
+
+# Table of Contents
+
+- [The Problem](#the-problem)
+- [Real Problems This Extension Solves](#real-problems-this-extension-solves)
+  - [1. Leads disappear into the chat abyss](#1-leads-disappear-into-the-chat-abyss)
+  - [2. Follow-ups become random instead of systematic](#2-follow-ups-become-random-instead-of-systematic)
+  - [3. CRMs are bloated and disconnected from reality](#3-crms-are-bloated-and-disconnected-from-reality)
+  - [4. Duplicate leads and broken contact tracking](#4-duplicate-leads-and-broken-contact-tracking)
+- [Why This Extension Was Built](#why-this-extension-was-built)
+- [Core Philosophy](#core-philosophy)
+- [Key Features](#key-features)
+  - [1. WhatsApp Embedded CRM Overlay](#1-whatsapp-embedded-crm-overlay)
+  - [2. Automatic Contact Detection](#2-automatic-contact-detection)
+  - [3. Lead Stage Management](#3-lead-stage-management)
+  - [4. Auto Sync Between Chat and CRM](#4-auto-sync-between-chat-and-crm)
+  - [5. List + Card View Dashboard](#5-list--card-view-dashboard)
+  - [6. Persistent Local Storage](#6-persistent-local-storage)
+  - [7. One-Click CRM Access](#7-one-click-crm-access)
+  - [8. Contextual Lead Management](#8-contextual-lead-management)
+  - [9. Lightweight Workflow Architecture](#9-lightweight-workflow-architecture)
+- [Technical Highlights](#technical-highlights)
+- [Architecture Concepts](#architecture-concepts)
+- [Why Chrome Extension Instead of Standalone SaaS?](#why-chrome-extension-instead-of-standalone-saas)
+- [Target Users](#target-users)
+- [Common Operational Pain Points Solved](#common-operational-pain-points-solved)
+- [Why This Matters](#why-this-matters)
+- [Installation Guide](#installation-guide)
+  - [Method 1 — Install From Source Code](#method-1--install-from-source-code-developer-mode)
+- [Folder Structure](#folder-structure)
+- [Required Permissions](#required-permissions)
+- [How It Works](#how-it-works)
+- [Example Workflow](#example-workflow)
+- [Future Roadmap](#future-roadmap)
+- [Contribution](#contribution)
+- [Disclaimer](#disclaimer)
+- [Final Thought](#final-thought)
 
 ---
 
@@ -173,7 +212,7 @@ Not the other way around.
 
 # Key Features
 
-# 1. WhatsApp Embedded CRM Overlay
+## 1. WhatsApp Embedded CRM Overlay
 
 The extension injects a CRM panel directly into WhatsApp Web.
 
@@ -184,7 +223,7 @@ The workflow stays uninterrupted.
 
 ---
 
-# 2. Automatic Contact Detection
+## 2. Automatic Contact Detection
 
 When a user opens a WhatsApp chat, the extension can:
 - detect the current contact
@@ -199,7 +238,7 @@ This eliminates:
 
 ---
 
-# 3. Lead Stage Management
+## 3. Lead Stage Management
 
 Track pipeline stages such as:
 - New Lead
@@ -214,7 +253,7 @@ The extension allows instant stage updates directly from chat context.
 
 ---
 
-# 4. Auto Sync Between Chat and CRM
+## 4. Auto Sync Between Chat and CRM
 
 When:
 - lead is saved
@@ -233,7 +272,7 @@ This prevents:
 
 ---
 
-# 5. List + Card View Dashboard
+## 5. List + Card View Dashboard
 
 CRM records can be viewed in:
 - structured list format
@@ -248,7 +287,7 @@ Instead of digging through spreadsheets like an archaeologist decoding ruins.
 
 ---
 
-# 6. Persistent Local Storage
+## 6. Persistent Local Storage
 
 Data can persist locally using browser storage mechanisms.
 
@@ -265,7 +304,7 @@ Perfect for:
 
 ---
 
-# 7. One-Click CRM Access
+## 7. One-Click CRM Access
 
 The CRM becomes available directly from the extension interface while browsing WhatsApp.
 
@@ -275,7 +314,7 @@ Tiny friction compounds into massive operational decay over time.
 
 ---
 
-# 8. Contextual Lead Management
+## 8. Contextual Lead Management
 
 The extension keeps lead context attached to:
 - phone number
@@ -286,9 +325,10 @@ Instead of detached spreadsheet rows with no conversational linkage.
 
 ---
 
-# 9. Lightweight Workflow Architecture
+## 9. Lightweight Workflow Architecture
 
 Most enterprise CRMs feel like:
+
 > piloting a commercial aircraft to send a follow-up message.
 
 This extension focuses on:
@@ -477,8 +517,6 @@ whatsapp-crm-extension/
 ---
 
 # Required Permissions
-
-The extension may require permissions such as:
 
 ```json
 {
