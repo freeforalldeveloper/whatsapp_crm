@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "WhatsApp CRM Overlay",
+  "version": "1.8.6",
+  "description": "CRM overlay for WhatsApp Web with pipeline stages, notes, follow-ups and contact scraping.",
+  "permissions": [
+    "storage",
+    "tabs",
+    "notifications"
+  ],
+  "host_permissions": [
+    "https://web.whatsapp.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://web.whatsapp.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "content.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}

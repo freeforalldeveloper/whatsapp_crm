@@ -1,0 +1,11 @@
+body{font-family:Arial,Helvetica,sans-serif;background:#0b141a;color:#e9edef;margin:0;padding:22px}.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}h1{margin:0}.tabs{display:flex;gap:8px;margin-bottom:14px}.tabs button,.top button,#addStage,#saveStages{border:0;border-radius:10px;padding:10px 13px;background:#26343d;color:#fff;font-weight:800;cursor:pointer}.tabs button.active{background:#10b981;color:#05130f}.tab{display:none}.tab.active{display:block}.filters{display:flex;gap:10px;margin-bottom:12px}input,select{background:#071318;color:#e9edef;border:1px solid #314650;border-radius:10px;padding:10px}#search{width:360px}table{width:100%;border-collapse:collapse;background:#101f27;border-radius:14px;overflow:hidden}th,td{border-bottom:1px solid #263943;padding:10px;text-align:left;font-size:13px}th{background:#18252d}.pill{display:inline-block;padding:6px 9px;border-radius:999px;color:#fff;font-weight:800;font-size:12px}.rowbtn{border:0;border-radius:8px;padding:7px 9px;margin-right:5px;background:#10b981;color:#04120e;font-weight:800;cursor:pointer}.muted{color:#9fb1bd}.stageEdit{display:grid;grid-template-columns:1fr 130px 1fr 80px;gap:8px;margin-bottom:8px;background:#101f27;padding:10px;border-radius:12px}.card{background:#101f27;border:1px solid #263943;border-radius:14px;padding:12px;margin-bottom:10px}
+
+.viewbtn{border:0;border-radius:10px;padding:10px 13px;background:#26343d;color:#fff;font-weight:800;cursor:pointer}
+.viewbtn.active{background:#10b981;color:#05130f}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+.leadCard{background:#101f27;border:1px solid #263943;border-radius:16px;padding:14px;box-shadow:0 10px 30px rgba(0,0,0,.2)}
+.leadCard h3{margin:0 0 5px;font-size:17px}
+.kv{display:grid;grid-template-columns:110px 1fr;gap:5px;font-size:13px;margin-top:8px}
+.kv b{color:#9fb1bd}
+.stageData{background:#071318;border:1px solid #263943;border-radius:10px;padding:8px;margin-top:8px;white-space:pre-wrap;font-size:12px}
+.notesBox{background:#071318;border:1px solid #263943;border-radius:10px;padding:8px;margin-top:8px;white-space:pre-wrap;font-size:12px}
