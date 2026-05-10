@@ -2,6 +2,9 @@
 
 A lightweight CRM layer built directly inside [WhatsApp Web](https://web.whatsapp.com) for brokers, sales teams, freelancers, recruiters, support agents, and operators drowning in chaotic chats, forgotten follow-ups, and spreadsheet graveyards.
 
+<img width="1332" height="577" alt="image" src="https://github.com/user-attachments/assets/b7b778f1-93e4-4370-9f20-379f069ef4a7" />
+
+
 ---
 
 # The Problem
