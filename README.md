@@ -4,7 +4,10 @@ A lightweight CRM layer built directly inside [WhatsApp Web](https://web.whatsap
 
 <img width="1332" height="577" alt="image" src="https://github.com/user-attachments/assets/b7b778f1-93e4-4370-9f20-379f069ef4a7" />
 
-<img width="1366" height="663" alt="image" src="https://github.com/user-attachments/assets/95c77b70-caee-4d84-958f-95a64b9b64a1" />
+<img width="1366" height="594" alt="image" src="https://github.com/user-attachments/assets/09e05fdd-1195-4cca-a50f-fd842213219e" />
+
+
+<img width="1366" height="598" alt="image" src="https://github.com/user-attachments/assets/81105da2-66cc-45ec-ae11-f0d79069c169" />
 
 
 ---
